@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7DE4BA4264D824200C8E1D7 /* BigInt.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DE4BA2264D824200C8E1D7 /* BigInt.m */; };
+		B7DE4BA5264D824200C8E1D7 /* BigInt.h in Headers */ = {isa = PBXBuildFile; fileRef = B7DE4BA3264D824200C8E1D7 /* BigInt.h */; };
 		B7EC3282222C804C00489436 /* RFIDEncoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EC3278222C804C00489436 /* RFIDEncoder.framework */; };
 		B7EC3287222C804C00489436 /* RFIDEncoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EC3286222C804C00489436 /* RFIDEncoderTests.m */; };
 		B7EC3289222C804C00489436 /* RFIDEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = B7EC327B222C804C00489436 /* RFIDEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B7DE4BA2264D824200C8E1D7 /* BigInt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigInt.m; sourceTree = "<group>"; };
+		B7DE4BA3264D824200C8E1D7 /* BigInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigInt.h; sourceTree = "<group>"; };
 		B7EC3278222C804C00489436 /* RFIDEncoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RFIDEncoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7EC327B222C804C00489436 /* RFIDEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFIDEncoder.h; sourceTree = "<group>"; };
 		B7EC327C222C804C00489436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B7DE4BA1264D824200C8E1D7 /* BigInt */ = {
+			isa = PBXGroup;
+			children = (
+				B7DE4BA3264D824200C8E1D7 /* BigInt.h */,
+				B7DE4BA2264D824200C8E1D7 /* BigInt.m */,
+			);
+			path = BigInt;
+			sourceTree = "<group>";
+		};
 		B7EC326E222C804C00489436 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +99,7 @@
 				B7EC3295222C816500489436 /* TCINEncoder */,
 				B7EC3296222C816D00489436 /* TIAIEncoder */,
 				B7EC3292222C814000489436 /* Converter */,
+				B7DE4BA1264D824200C8E1D7 /* BigInt */,
 				B7EC3293222C814900489436 /* SerialNumberGenerator */,
 				B7EC3285222C804C00489436 /* RFIDEncoderTests */,
 				B7EC3279222C804C00489436 /* Products */,
@@ -177,6 +191,7 @@
 			files = (
 				B7EC3289222C804C00489436 /* RFIDEncoder.h in Headers */,
 				B7EC329D222C81F800489436 /* EPCEncoder.h in Headers */,
+				B7DE4BA5264D824200C8E1D7 /* BigInt.h in Headers */,
 				B7EC32A6222C820C00489436 /* TCINEncoder.h in Headers */,
 				B7EC32A9222C821300489436 /* TIAIEncoder.h in Headers */,
 				B7EC3299222C81EE00489436 /* Converter.h in Headers */,
@@ -304,6 +319,7 @@
 			files = (
 				B7EC32A1222C820400489436 /* SerialNumberGenerator.m in Sources */,
 				B7EC329A222C81EE00489436 /* Converter.m in Sources */,
+				B7DE4BA4264D824200C8E1D7 /* BigInt.m in Sources */,
 				B7EC32A5222C820C00489436 /* TCINEncoder.m in Sources */,
 				B7EC329E222C81F800489436 /* EPCEncoder.m in Sources */,
 				B7EC32AA222C821300489436 /* TIAIEncoder.m in Sources */,
